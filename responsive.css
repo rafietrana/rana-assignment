@@ -261,6 +261,9 @@
         height: 100%;
         margin-left: 56px;
     }
+    .box-bot {
+        display: none;
+    }
 
 
 }
