@@ -1,0 +1,729 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+.hide{
+    display: none;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    max-width: 1124px;
+    margin: auto;
+
+}
+.dflex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ 
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+
+/* defult css end */
+/* header-section-start*/
+.header-section{
+    padding: 40px 0;
+}
+.header-right-menu ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.header-right-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* header-section-end */
+.banner-content p, h1{
+    text-align: center;
+    
+    
+}
+.banner-content p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 17px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.banner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #ffffff7d;
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+    margin-top: 32px;
+    border-radius: 20px;
+}
+.background{
+    background: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    padding: 100px 0;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.background::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    
+    
+}
+.banner-content h1, p{
+    position: relative;
+    z-index: 99999;
+}
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    
+}
+.banner-content  p {
+    color: white;
+    padding: 23px 0;
+    font-weight: 400;
+}
+.banner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.banner-form input, select, button {
+    font-size: 15px;
+    border: none;
+    padding: 20px 40px ;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 224px;
+    position: relative;
+    left: 1px;
+    outline: none;
+}
+.banner-form button{
+    background-color: red;
+    color: white;
+}
+/* banner-section-css end */
+/* tour section css start */
+.tour-section{
+    margin: 70px 0;
+}
+.tour-left-content *{
+    text-align: left;
+}
+.tour-side{
+    display: flex;
+    justify-content: space-between;
+}
+.tour-left-content{
+    padding-right: 30px;
+}
+
+
+.btn-primary {
+    text-align: center;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    width: 133px;
+}
+.tour-left-content{}
+.tour-left-content h1{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.tour-left-content p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.tour-left-content ol li{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+/* chose section css start */
+.chose-top{
+    margin: 20px 0;
+}
+.chose-top h1
+ {
+    text-align: center;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.chose-top p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+ /* chose bottom css start */
+}
+.image-content{
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+}
+ .image-content .left-image{
+    width: 50%;
+    background: url('Images/Rectangle\ 5.png');
+    min-height: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover; 
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+ }
+ .left-image,.right-image, .left-img, .center-img, .right-img, .bottom-left, .bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .left-image,.right-image,.left-img, .center-img, .right-img, .bottom-left, .bottom-right p{
+
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+ }
+ .image-content .right-image{
+    width: 50%;
+    background: url('Images/Rectangle\ 8.png');
+    min-height: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+ }
+.right-image p{
+    color: white;
+}
+.left-img{
+    width: 33.3%;
+    background: url('Images/Rectangle\ 6.png');
+    min-height: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.center-img{
+    width: 33.3%;
+    background: url('Images/Rectangle\ 7.png');
+    min-height: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.right-img{
+    width: 33.3%;
+    background: url('Images/Rectangle\ 9.png');
+    min-height: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.center-image-content{
+    display: flex;
+    gap: 10px;
+}
+
+/* bottom image content */
+.bottom-image-content{
+    display: flex;
+    gap: 10px;
+}
+.bottom-left{
+    width: 50%;
+    background: url('Images/Rectangle\ 11.png');
+    min-height: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+.bottom-right{
+    width: 50%;
+    background: url('Images/Rectangle\ 10.png');
+    min-height: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+ /* chose section css end */
+ /* why section css start */
+ .why-content h1 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 50px;
+ }
+ .why-content p{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+ .left-why{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    
+ }
+.left-why h1, p {
+    text-align: left;
+}
+.why-center{
+    display: flex;
+    gap: 20px;
+
+}
+.left-why{
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.left-why img, h2, p{
+    margin: 10px 0;
+}
+.left-why h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.left-why h5{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.extra{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.wit50{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+/* why section css end */
+/* deals section css start */
+.deals-top-content h1  {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+.deals-top-content p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+.deals-bottom-box-content{
+    margin: 100px 0;
+    background: url('Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 50px 40px;
+}
+.deals-bottom-box-content ul{}
+.deals-bottom-box-content ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.deals-bottom-box-content ul li span{}
+.deals-bottom-box-content ul li span img{}
+.deals-bottom-box-content h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.deals-bottom-box-content p {
+    width: 90%;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.deals-bottom-box-content h3{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.deals-bottom-box-content button{}
+.white-bg{
+    background-color: rgba(255, 255, 255, 0.738);
+    width: 50%;
+    padding: 50px;
+    
+}
+
+.image-2 .white-bg{
+    position: relative;
+    right: -464px;
+}
+
+.submit-button .buttom{
+    margin: auto;
+    background-color: #ff0000;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
+
+
+}
+
+.center-button{
+    text-align: center;
+}
+/* perfect section css start */
+ .perfect-section{
+    margin: 50px 0;
+ }
+.dflexs{
+    display: flex;
+}
+.perfect-section .perfect-left-content{
+    width: 50%;
+    margin-right: 15px;
+}
+.perfect-section .perfect-left-content h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+}
+.perfect-section .perfect-left-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.perfect-section .perfect-left-content ol{}
+.perfect-section .perfect-left-content ol li{
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+.perfect-section .perfect-right-content{
+    width: 50%;
+
+}
+.perfect-right-content img{
+    width: 100%;
+}
+.perfect-left-content button{
+    margin-top: 20px;
+}
+/* h1 center problem */
+.banner-content p, h1 {
+    text-align: center;
+}
+/* h1 center problem */
+/* newslatter section css start */
+.newslatter-section{
+    margin:200px 0;
+}
+.newslatter-left-content{
+
+}
+.newslatter-left-content h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.newslatter-left-content p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.newslatter-left-content input {
+    outline: none;
+    display: block;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 20px;
+}
+.newslatter-left-content .submit{
+ background-color: red;
+ color: white;
+ padding-left: 0;
+ font-weight: bold;
+}
+.newslatter-left-content{
+    width: 60%;
+}
+.newslatter-right-content{
+    width:40%
+}
+.newslatter-right-content{
+    width: 100%;
+    height: 100%;
+}
+.kiner-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer-section css start */
+.footer-top h2{
+    text-align: center;
+    font-size: 30px;
+    margin: auto 0;
+
+}
+.footer-top p{
+    text-align: center;
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+    
+}
+.footer-section{
+    padding: 20px 0;
+}
+.social-icon ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.social-icon  ul li{
+    list-style: none;
+
+}
+.footer-bootom{
+    padding: 50px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.548);
+}
+.footer-bootom p{
+    text-align: center;
+}
+.footer-top h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top h3 {
+    text-align: center;
+}
+.footer-bootom {
+    border-top: 1px solid rgba(0, 0, 0, 0.548);
+    text-align: center;
+    margin-left: -7px;
+}
+.box-bot h1,p{
+    text-align: center;
+    
+}
+.box-bot{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 50%;
+    padding:10px 7px;
+    position: relative;
+
+}
+.deals-bottom-box-content p {
+    width: 90%;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+.newslatter-left-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.box-bot {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 10px 7px;
+    position: relative;
+    top: -104px;
+    left: 336px;
+    border-radius: 0 0 10px 0;
+}
+
+
+
+
+
+
+
+
