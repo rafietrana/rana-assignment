@@ -1,3 +1,37 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 848px;
+        margin: auto;
+    }
+    .tour-side {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .kiner-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .kiner-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tour-side {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 90%;
+    }
+  }
+
+
+
 @media only screen and (max-width:982px) {
     .banner-form {
         display: flex;
@@ -298,4 +332,5 @@
         margin-left: 21px;
     }
   }
+ 
   
