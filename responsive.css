@@ -264,6 +264,38 @@
     .box-bot {
         display: none;
     }
+    .left-image, .right-image, .left-img, .center-img, .right-img, .bottom-left, .bottom-right p {
+        text-align: center;
+    }
+    .white-bg {
+        width: 80%;
+    }
+    .white-bg {
+        width: 80%;
+        left: 10%;
+    }
+    .newslatter-section {
+        margin: 0px;
+        margin-left: 0;
+    }
 
 
 }
+@media only screen and (max-width: 433px) {
+    .kiner-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .newslatter-left-content input {
+        
+        width:80%
+    }
+    .newslatter-right-image {
+        margin: auto;
+        width: 70%;
+        height: 100%;
+        margin-left: 21px;
+    }
+  }
+  
